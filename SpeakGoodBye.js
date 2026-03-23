@@ -8,5 +8,5 @@
 
     // Робимо byeSpeaker доступним глобально
     window.byeSpeaker = byeSpeaker;
-})(window); file - goodbye.js
+})(window); 
 
