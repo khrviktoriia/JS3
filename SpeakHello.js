@@ -8,4 +8,4 @@
 
     // Робимо helloSpeaker доступним глобально
     window.helloSpeaker = helloSpeaker;
-})(window); - file: SpeakHello.Js
+})(window); 
