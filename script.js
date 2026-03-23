@@ -25,4 +25,4 @@
             console.log("Found name ending with 'n': " + name);
         }
     }
-})(); - file: script.js
+})(); 
