@@ -1,7 +1,11 @@
-var speakWord = "Hello";
+(function (window) {
+    var speakWord = "Hello";
+    var helloSpeaker = {};
+    
+    helloSpeaker.speak = function (name) {
+        console.log(speakWord + " " + name);
+    };
 
-
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
-
+    // Робимо helloSpeaker доступним глобально
+    window.helloSpeaker = helloSpeaker;
+})(window); - file: SpeakHello.Js
